@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[FatCatDog]]></title><description><![CDATA[A personal blog.]]></description><link>https://fatcatdog.github.io</link><generator>RSS for Node</generator><lastBuildDate>Wed, 28 Mar 2018 00:37:11 GMT</lastBuildDate><item><title><![CDATA[Build basic D3.js(D3 Plus) Data Visualizations with your Email Data]]></title><description><![CDATA[Recently I was shown a D3.js tutorial and I think it would be pretty cool to do a data visualization using D3.js with my email data. If you…]]></description><link>https://fatcatdog.github.io/mbox-project/</link><guid isPermaLink="false">https://fatcatdog.github.io/mbox-project/</guid><pubDate>Fri, 17 Nov 2017 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;Recently I was shown a D3.js tutorial and I think it would be pretty cool to do a data visualization using D3.js with my email data. If you want to skip to the code bits, you can scroll down to Step 1 or click &lt;a href=&quot;#step_one&quot;&gt;this.&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[FatCatDog]]></title><description><![CDATA[A personal blog.]]></description><link>https://fatcatdog.github.io</link><generator>RSS for Node</generator><lastBuildDate>Wed, 28 Mar 2018 00:39:47 GMT</lastBuildDate><item><title><![CDATA[Build basic D3.js(D3 Plus) Data Visualizations with your Email Data]]></title><description><![CDATA[Recently I was shown a D3.js tutorial and I think it would be pretty cool to do a data visualization using D3.js with my email data. If you…]]></description><link>https://fatcatdog.github.io/mbox-project/</link><guid isPermaLink="false">https://fatcatdog.github.io/mbox-project/</guid><pubDate>Fri, 17 Nov 2017 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;Recently I was shown a D3.js tutorial and I think it would be pretty cool to do a data visualization using D3.js with my email data. If you want to skip to the code bits, you can scroll down to Step 1 or click &lt;a href=&quot;#step_one&quot;&gt;this.&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Lets go over a few of the goals I want to accomplish with this project:&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;-Download Gmail data from one Gmail Account&lt;/p&gt;
 &lt;p&gt;-Try recover my other Gmail account’s password and download that data as well (Google Takeout requires you to be signed into Gmail’s desktop-browser application to use it and I have no idea what that password is)&lt;/p&gt;
@@ -12,7 +12,7 @@
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/gatsby-starter-blog/static/image3-d233ea4df5b5bcae615c857d59f3b0d5-c0804.png&quot;
+    href=&quot;/static/image3-d233ea4df5b5bcae615c857d59f3b0d5-c0804.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -31,10 +31,10 @@
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Google not letting me in my old email&quot;
         title=&quot;&quot;
-        src=&quot;/gatsby-starter-blog/static/image3-d233ea4df5b5bcae615c857d59f3b0d5-c0804.png&quot;
-        srcset=&quot;/gatsby-starter-blog/static/image3-d233ea4df5b5bcae615c857d59f3b0d5-68b23.png 148w,
-/gatsby-starter-blog/static/image3-d233ea4df5b5bcae615c857d59f3b0d5-63c8a.png 295w,
-/gatsby-starter-blog/static/image3-d233ea4df5b5bcae615c857d59f3b0d5-c0804.png 549w&quot;
+        src=&quot;/static/image3-d233ea4df5b5bcae615c857d59f3b0d5-c0804.png&quot;
+        srcset=&quot;/static/image3-d233ea4df5b5bcae615c857d59f3b0d5-68b23.png 148w,
+/static/image3-d233ea4df5b5bcae615c857d59f3b0d5-63c8a.png 295w,
+/static/image3-d233ea4df5b5bcae615c857d59f3b0d5-c0804.png 549w&quot;
         sizes=&quot;(max-width: 549px) 100vw, 549px&quot;
       /&gt;
     &lt;/span&gt;
@@ -113,16 +113,16 @@ for row in reader:
 &lt;p&gt;Any findings from my data visualizations?&lt;/p&gt;
 &lt;p&gt;Let’s start with times email are sent to me by the hour:&lt;/p&gt;
 
-  &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/gatsby-starter-blog/static/image2-8ecadc1aaaac1e756470ffe3fade62ce-d906a.png&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+  &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/image2-8ecadc1aaaac1e756470ffe3fade62ce-d906a.png&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
   
   &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;&gt;
     &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 57.707828894269575%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsSAAALEgHS3X78AAAChElEQVQoz11SS08TURjlh5j4E0zcunDlzpWauDEEV+oPUKJhgSxcsDURg+ALDAkhaiRSpDbyaAeKLQrlaetMZzrTF48+pvN+HL97p/ia5Mw997vnnHsymR5JklCr1VCpVMB4uVyGqqoQRYnPGC8WZciyjFq1yveKotC5iFKpxPUazRqNBtjTY5omHMfhsIjbts3B5p7nQZEVqGR0XI/DtixYBHbO1r+1PNB13d+BjP8PfoFD3GjA7pzA9Xz4XgCPZg6dnfp93//TsNVqod1uQ9d1dDodDsb5Xqe5HcAoJmGI6yjsqchXs2ja1JJadXTytpr8Yh7IauvtyGwYBq/P1ohbESetp6axm51GJvUdyeo85J8iDldSsALAtOlTON1Aw2DfwqTKDkyjwwNZkGk7MFoNWM1j6L4LXRIgCE+RTmWwdrQM8WUMU5d6sSR8QGsvDs8NokDHtSEVNMzHsjAduo0aG7aO9kkL+6Mx1CdHIednkNv+jMzaONLJDIT6FyiTcYxc6MPMxGXknl9FjfQ80A9tbCRVDD4YxpH0Btahg3ezk3iVmIYwNAvxTi/y8WHsFpL4KoxRwyxW64uQKXD04k0svO/D68FzGF+YiQIBFxsrNQwN9GNv4gz6793GwMB9XHn2EG/vTqF06wYOPj3C9o8lajeC1eV1JOsJFF/E8Pj8dcxNX8NY/1k8mZuKAoPQh1Y6RG5rE8dSHIupBLZym0gXdlD8JqKZSeNY3UH9SENF20dZrUBrlnCSV7C7kIIspnCw8REFTY4Cw5At/NV9//tYJLAdH0EQEkAIEHghfFIzPfOf+kLa9LAxGzJhGPqRIYzAlC774Qldx6mV8zBg3qCL6OwX4LRpxNnu1CAAAAAASUVORK5CYII=&amp;apos;); background-size: cover; display: block;&quot;&gt;
-      &lt;img class=&quot;gatsby-resp-image-image&quot; style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot; alt=&quot;Bar chart of when emails are sent to me by the hour&quot; title=&quot;&quot; src=&quot;/gatsby-starter-blog/static/image2-8ecadc1aaaac1e756470ffe3fade62ce-fb8a0.png&quot; srcset=&quot;/gatsby-starter-blog/static/image2-8ecadc1aaaac1e756470ffe3fade62ce-1a291.png 148w,
-/gatsby-starter-blog/static/image2-8ecadc1aaaac1e756470ffe3fade62ce-2bc4a.png 295w,
-/gatsby-starter-blog/static/image2-8ecadc1aaaac1e756470ffe3fade62ce-fb8a0.png 590w,
-/gatsby-starter-blog/static/image2-8ecadc1aaaac1e756470ffe3fade62ce-526de.png 885w,
-/gatsby-starter-blog/static/image2-8ecadc1aaaac1e756470ffe3fade62ce-fa2eb.png 1180w,
-/gatsby-starter-blog/static/image2-8ecadc1aaaac1e756470ffe3fade62ce-d906a.png 1239w&quot; sizes=&quot;(max-width: 590px) 100vw, 590px&quot;&gt;
+      &lt;img class=&quot;gatsby-resp-image-image&quot; style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot; alt=&quot;Bar chart of when emails are sent to me by the hour&quot; title=&quot;&quot; src=&quot;/static/image2-8ecadc1aaaac1e756470ffe3fade62ce-fb8a0.png&quot; srcset=&quot;/static/image2-8ecadc1aaaac1e756470ffe3fade62ce-1a291.png 148w,
+/static/image2-8ecadc1aaaac1e756470ffe3fade62ce-2bc4a.png 295w,
+/static/image2-8ecadc1aaaac1e756470ffe3fade62ce-fb8a0.png 590w,
+/static/image2-8ecadc1aaaac1e756470ffe3fade62ce-526de.png 885w,
+/static/image2-8ecadc1aaaac1e756470ffe3fade62ce-fa2eb.png 1180w,
+/static/image2-8ecadc1aaaac1e756470ffe3fade62ce-d906a.png 1239w&quot; sizes=&quot;(max-width: 590px) 100vw, 590px&quot;&gt;
     &lt;/span&gt;
   &lt;/span&gt;
   
@@ -131,14 +131,14 @@ for row in reader:
 &lt;p&gt;No real notable findings here. People usually send mass marketing emails during the day.&lt;/p&gt;
 &lt;p&gt;How about most common words in subject lines (A bubble chart that looks a lot better in D3.js rather than a simple image of that D3.js chart. When you hover over a bubble in D3.js, the frequency of that word appears):&lt;/p&gt;
 
-  &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/gatsby-starter-blog/static/image4-2e6f3f5df9825dec7b3d49103fa7d578-20b31.png&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+  &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/image4-2e6f3f5df9825dec7b3d49103fa7d578-20b31.png&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
   
   &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;&gt;
     &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 86.52931854199683%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAAAsSAAALEgHS3X78AAADz0lEQVQ4y22U7U+bVRjG+SdM9Ou+mSz61USN78ZEMjQx6uIndTE6QswWGZsyBowtA1ZA6ISOMYqAgLxXygCB0lIGFsbL01cotNB2LbSstFBKC7Q/n8J423Y+POfkzn2unOu6n+tKQlzxeJyD/eC8vbNDaCOM3xfEs+zBs+LGt+oVayFisdhz/Qd70rOFxAoHAywvOtCM9dI6KKOvW8XtS/foax9iSj/N/JyVYGDtsP84RtKzhRWXmxr1ECUDg0j+TiWnOZm83y6T/omUi+fzePtKMhcqspm3OXF7PM+BJh1/9qp3BbVxijebajldV0dafTa58u/4uUHG74Wl/Cq5zqkf3+DzjE8x9NUjCNOseL0n6B9SXg9toNdN82+hgq+K5Zxpr6NX0kzT9/V8LJNz6e4X3Eq7yjeZWbTmvMfouVeY7G7EbLWJum4cUd5DjsVxel30ZbXRfLqI1q/l2HvqMVRLuS7Npir9PNXlN1Clf8nFzI9oufAu47mvY9CWYzQv4FhaPKnhVngLi93KaM0ALe+Xo8mVgz8feUE1Z/NvMlh1DaW8iE6lnLqyVIQ/P2TV+ipe0ylMRh0Wi5Xt7ei+holPIBjEJMzgar2PuzSfRyNq1GYdQkE+irtSamQyKouyKb6Ty2B3AwM9aXQ3pKBS/MDsrAWj0cjGU9p7gKuBINZRDStl11gqykTf0YFGp2Z6UkJp4RXaqgppr8ij7V42I70d3PpWwlsfFHMmpQSzyYTJZCQQCBwB+tfWMBr0OLua8XcWsTzVRLDnF7QTgwxUynjQdpVaaSU19YVoWwYQPkum9p0UGsr/Yc7u2LsbFFkeAm6KEzYY51i0a/A5clh33+ThZBmNqjuYtJVohD8YG+5HPaFlumcG/U8SJl57CXt/hjjlYRHQzNZW+AgwFtvBMmvnsV2Jz57BE9tlBFsjCrWKoc55hsf/YuxRO8oFC267jU2rn6BLRyTYTHhdz0YoIk44dvI/9Hp96PUCPleHSENBu+BEObWCTuMUtbzPiKWJzuVJFteWiOwkBhAmcTUeE6nGo4RCYXZ3d48AE4a3zi9g1FvomnYhGzJQ9Z+NGZ2SiCoD/8MKlOPtVA/LaNTVMqdP5onhZVYXzrKzkwCL7b3yhJe3IhHR+BbG9GbaBBddggNPTxae5nMEFKl0aUso7r+NdKiY4ckulmYbiUa8B25+cdpEo1GW7HYEgwG9aZbHo3WEHqThHypgYkZL60QTvQmwJZcYcQfBENunf2i9F0RYUIwwh8O5J4NNdMOc2cDCwiJup5vN9c2nXfs0j4fD/7IPhsqvOVZRAAAAAElFTkSuQmCC&amp;apos;); background-size: cover; display: block;&quot;&gt;
-      &lt;img class=&quot;gatsby-resp-image-image&quot; style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot; alt=&quot;Bubble chart of most common words sent to me in subject lines&quot; title=&quot;&quot; src=&quot;/gatsby-starter-blog/static/image4-2e6f3f5df9825dec7b3d49103fa7d578-fb8a0.png&quot; srcset=&quot;/gatsby-starter-blog/static/image4-2e6f3f5df9825dec7b3d49103fa7d578-1a291.png 148w,
-/gatsby-starter-blog/static/image4-2e6f3f5df9825dec7b3d49103fa7d578-2bc4a.png 295w,
-/gatsby-starter-blog/static/image4-2e6f3f5df9825dec7b3d49103fa7d578-fb8a0.png 590w,
-/gatsby-starter-blog/static/image4-2e6f3f5df9825dec7b3d49103fa7d578-20b31.png 631w&quot; sizes=&quot;(max-width: 590px) 100vw, 590px&quot;&gt;
+      &lt;img class=&quot;gatsby-resp-image-image&quot; style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot; alt=&quot;Bubble chart of most common words sent to me in subject lines&quot; title=&quot;&quot; src=&quot;/static/image4-2e6f3f5df9825dec7b3d49103fa7d578-fb8a0.png&quot; srcset=&quot;/static/image4-2e6f3f5df9825dec7b3d49103fa7d578-1a291.png 148w,
+/static/image4-2e6f3f5df9825dec7b3d49103fa7d578-2bc4a.png 295w,
+/static/image4-2e6f3f5df9825dec7b3d49103fa7d578-fb8a0.png 590w,
+/static/image4-2e6f3f5df9825dec7b3d49103fa7d578-20b31.png 631w&quot; sizes=&quot;(max-width: 590px) 100vw, 590px&quot;&gt;
     &lt;/span&gt;
   &lt;/span&gt;
   
@@ -147,16 +147,16 @@ for row in reader:
 &lt;p&gt;No real notable findings here.
 How about who is emailing me?&lt;/p&gt;
 
-  &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/gatsby-starter-blog/static/image1-daf816819b527caad3bfce9e76b2bd85-80bb5.png&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+  &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/image1-daf816819b527caad3bfce9e76b2bd85-80bb5.png&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
   
   &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;&gt;
     &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 55.30249110320285%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAAB7klEQVQoz3VT227bMAz1///KgL3saQWGveyCtU3WpYUTJF6bxI5tSZYc3+RLLqekAgdY0REgTFM8h6J05IHsfD7/48fjEVJKKKWQJImL2bMsgxAC+/0e7+HOlPP6vkfbtqjrGk3TOOeYc9baq1//W4pti8TEyIvc5RrGth2qdQDPGOOKq6q6kvL3f17VFRF2WKVLSJPCNhY1Y7se5dMEXlmWV8L3yN7mbFMjLxvcbQOY3R9YHaJu2guh/3Ah7GjsoWups0U39FRg0bcDjXPJWRrHUk3D63w89kCEf7EXPloduXGbNkE1n8JjQEldP329w+TDL8TbCIWRCCIfhs5J6hxZvIVcBciNhtIxHpc+vj0vEE8/otitYHRCmBuY2S08vi2dZrj5PsH9lynW8ydk0RKL7QzxbgY/2GC3nOHl9h7r5QKb2Mfjw0/MN8+If39GQjsNXwIo8QOCYkfYdR1yraD3GlKRNMh1lpNUaEdSQEjKkWQkyUikVKcNMkmxLmiNviSpVNAkJr8Q8oWwvkQqkJLuwjBEtIsQRSEVCiKVLs+6VErSUWinzzRNCJM6rFKCNiAuhIfDwe2SzdKtFkWBYRhco9FYr1wzipj1d6AHwFg3JV0WYzxeHFXPdjqd3EsZjWXDSmDnBmPdW2Nixr4ClK1ENlhOug4AAAAASUVORK5CYII=&amp;apos;); background-size: cover; display: block;&quot;&gt;
-      &lt;img class=&quot;gatsby-resp-image-image&quot; style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot; alt=&quot;Who is emailing me ranked by frequency&quot; title=&quot;&quot; src=&quot;/gatsby-starter-blog/static/image1-daf816819b527caad3bfce9e76b2bd85-fb8a0.png&quot; srcset=&quot;/gatsby-starter-blog/static/image1-daf816819b527caad3bfce9e76b2bd85-1a291.png 148w,
-/gatsby-starter-blog/static/image1-daf816819b527caad3bfce9e76b2bd85-2bc4a.png 295w,
-/gatsby-starter-blog/static/image1-daf816819b527caad3bfce9e76b2bd85-fb8a0.png 590w,
-/gatsby-starter-blog/static/image1-daf816819b527caad3bfce9e76b2bd85-526de.png 885w,
-/gatsby-starter-blog/static/image1-daf816819b527caad3bfce9e76b2bd85-fa2eb.png 1180w,
-/gatsby-starter-blog/static/image1-daf816819b527caad3bfce9e76b2bd85-80bb5.png 1405w&quot; sizes=&quot;(max-width: 590px) 100vw, 590px&quot;&gt;
+      &lt;img class=&quot;gatsby-resp-image-image&quot; style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot; alt=&quot;Who is emailing me ranked by frequency&quot; title=&quot;&quot; src=&quot;/static/image1-daf816819b527caad3bfce9e76b2bd85-fb8a0.png&quot; srcset=&quot;/static/image1-daf816819b527caad3bfce9e76b2bd85-1a291.png 148w,
+/static/image1-daf816819b527caad3bfce9e76b2bd85-2bc4a.png 295w,
+/static/image1-daf816819b527caad3bfce9e76b2bd85-fb8a0.png 590w,
+/static/image1-daf816819b527caad3bfce9e76b2bd85-526de.png 885w,
+/static/image1-daf816819b527caad3bfce9e76b2bd85-fa2eb.png 1180w,
+/static/image1-daf816819b527caad3bfce9e76b2bd85-80bb5.png 1405w&quot; sizes=&quot;(max-width: 590px) 100vw, 590px&quot;&gt;
     &lt;/span&gt;
   &lt;/span&gt;
   
