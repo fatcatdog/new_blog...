@@ -1,0 +1,2 @@
+webpackJsonp([0x81b8806e4260],{508:function(t,a){t.exports={data:{site:{siteMetadata:{title:"FatCatDog"}},allMarkdownRemark:{edges:[{node:{excerpt:"Recently I was shown a D3.js tutorial and I think it would be pretty cool to do a data visualization using D3.js with my email data. If you…",fields:{slug:"/mbox-project/"},frontmatter:{date:"17 November, 2017",title:"Build basic D3.js(D3 Plus) Data Visualizations with your Email Data"}}}]}},pathContext:{}}}});
+//# sourceMappingURL=path---index-b3876da6b1aa2d59daae.js.map
